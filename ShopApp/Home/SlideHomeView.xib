@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tkf-cS-OF7" customClass="SlideHomeView" customModule="shopapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MaP-sE-ZNe">
+                    <rect key="frame" x="0.0" y="373" width="414" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="B5m-9w-hIZ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="MaP-sE-ZNe" firstAttribute="trailing" secondItem="Vv8-O1-67H" secondAttribute="trailing" id="6cm-3r-4zl"/>
+                <constraint firstItem="MaP-sE-ZNe" firstAttribute="centerY" secondItem="tkf-cS-OF7" secondAttribute="centerY" id="8BV-xE-zZP"/>
+                <constraint firstItem="MaP-sE-ZNe" firstAttribute="leading" secondItem="Vv8-O1-67H" secondAttribute="leading" id="oPg-xQ-I8f"/>
+                <constraint firstItem="MaP-sE-ZNe" firstAttribute="centerX" secondItem="tkf-cS-OF7" secondAttribute="centerX" id="rzc-jR-RFx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Vv8-O1-67H"/>
+            <connections>
+                <outlet property="imgSlider" destination="MaP-sE-ZNe" id="vI5-XD-C0f"/>
+            </connections>
+            <point key="canvasLocation" x="-1000" y="-470"/>
+        </view>
+    </objects>
+</document>
