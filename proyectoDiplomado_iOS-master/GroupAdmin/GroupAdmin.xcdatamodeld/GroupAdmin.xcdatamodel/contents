@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Asistencia" representedClassName="Asistencia" syncable="YES" codeGenerationType="class">
+        <attribute name="cuenta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estado" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo>
+            <entry key="key" value="fecha"/>
+            <entry key="key1" value="cuenta"/>
+        </userInfo>
+    </entity>
+    <entity name="Estudiante" representedClassName="Estudiante" syncable="YES" codeGenerationType="class">
+        <attribute name="cuenta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parcial1" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="parcial2" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="parcial3" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Asistencia" syncable="YES"/>
+        <userInfo>
+            <entry key="key" value="cuenta"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="Asistencia" positionX="-882" positionY="-117" width="128" height="105"/>
+        <element name="Estudiante" positionX="-893.1171875" positionY="-175.44921875" width="128" height="150"/>
+    </elements>
+</model>
