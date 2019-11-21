@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIMenu" customModule="HOPE_Children" customModuleProvider="target">
+            <connections>
+                <outlet property="ButtonMusic" destination="dat-cR-bIR" id="MCG-HP-bWi"/>
+                <outlet property="ButtonSound" destination="PR2-b7-aJM" id="gcd-24-iFs"/>
+                <outlet property="view" destination="iN0-l3-epB" id="5cj-uj-VyR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="361"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu" translatesAutoresizingMaskIntoConstraints="NO" id="sER-sH-RHH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="361"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="2O1-vp-jhs">
+                    <rect key="frame" x="85" y="86" width="150" height="189"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6H-7b-gKx">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="6rE-Ss-t6G"/>
+                                <constraint firstAttribute="width" constant="150" id="Rqp-q5-hIG"/>
+                            </constraints>
+                            <state key="normal" image="menu_resumen"/>
+                            <connections>
+                                <action selector="resumeButton:" destination="-1" eventType="touchUpInside" id="omK-9f-2QA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dat-cR-bIR">
+                            <rect key="frame" x="0.0" y="48" width="150" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="7oV-69-kmP"/>
+                                <constraint firstAttribute="height" constant="45" id="nMD-DH-D7d"/>
+                            </constraints>
+                            <state key="normal" image="menu_musica_on"/>
+                            <connections>
+                                <action selector="musicaButton:" destination="-1" eventType="touchUpInside" id="vIK-Cd-Dci"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PR2-b7-aJM">
+                            <rect key="frame" x="0.0" y="96" width="150" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="Hoe-5V-WoV"/>
+                                <constraint firstAttribute="height" constant="45" id="tav-Lu-3xv"/>
+                            </constraints>
+                            <state key="normal" image="sonido_on"/>
+                            <connections>
+                                <action selector="sonidoButton:" destination="-1" eventType="touchUpInside" id="hzb-DC-nOh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPo-kW-v5W">
+                            <rect key="frame" x="0.0" y="144" width="150" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="RFK-fv-uCd"/>
+                                <constraint firstAttribute="height" constant="45" id="ghl-fL-mQy"/>
+                            </constraints>
+                            <state key="normal" image="menu_salir"/>
+                            <connections>
+                                <action selector="salirButton:" destination="-1" eventType="touchUpInside" id="ONF-SU-bRm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="sER-sH-RHH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CEN-Lm-dq5"/>
+                <constraint firstAttribute="trailing" secondItem="sER-sH-RHH" secondAttribute="trailing" id="LX4-8w-kTO"/>
+                <constraint firstItem="sER-sH-RHH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RTX-Dc-PJQ"/>
+                <constraint firstAttribute="bottom" secondItem="sER-sH-RHH" secondAttribute="bottom" id="b39-i6-4li"/>
+                <constraint firstItem="2O1-vp-jhs" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="l5b-xv-fKi"/>
+                <constraint firstItem="2O1-vp-jhs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wxJ-FJ-79z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="130.43478260869566" y="423.54910714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu" width="485" height="527"/>
+        <image name="menu_musica_on" width="128" height="128"/>
+        <image name="menu_resumen" width="128" height="128"/>
+        <image name="menu_salir" width="128" height="128"/>
+        <image name="sonido_on" width="128" height="128"/>
+    </resources>
+</document>
