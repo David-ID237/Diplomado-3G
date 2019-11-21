@@ -1,0 +1,6 @@
+framework module Pods_SmartStudent {
+  umbrella header "Pods-SmartStudent-umbrella.h"
+
+  export *
+  module * { export * }
+}

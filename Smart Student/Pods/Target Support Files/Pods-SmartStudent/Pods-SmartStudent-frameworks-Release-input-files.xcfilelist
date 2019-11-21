@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SmartStudent/Pods-SmartStudent-frameworks.sh
+${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
