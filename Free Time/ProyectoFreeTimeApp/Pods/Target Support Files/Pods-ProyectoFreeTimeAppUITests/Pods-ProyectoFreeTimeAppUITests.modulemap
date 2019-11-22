@@ -1,0 +1,6 @@
+framework module Pods_ProyectoFreeTimeAppUITests {
+  umbrella header "Pods-ProyectoFreeTimeAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

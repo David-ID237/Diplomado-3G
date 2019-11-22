@@ -1,0 +1,6 @@
+framework module Pods_ProyectoFreeTimeApp {
+  umbrella header "Pods-ProyectoFreeTimeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
