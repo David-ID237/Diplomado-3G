@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31A80EBD22F4EE0300269D0A /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A80EBC22F4EE0300269D0A /* DetailStoryboard.storyboard */; };
+		31A80EBF22F4F13700269D0A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A80EBE22F4F13700269D0A /* DetailViewController.swift */; };
+		3EB315C613BB58F826777F70 /* Pods_ProyectoFreeTimeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE7DDA33EFF6F0671B69C9 /* Pods_ProyectoFreeTimeAppUITests.framework */; };
+		501E218322E7030D006432A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501E218222E7030D006432A1 /* AppDelegate.swift */; };
+		501E218822E7030D006432A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501E218622E7030D006432A1 /* Main.storyboard */; };
+		501E218A22E7030D006432A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501E218922E7030D006432A1 /* Assets.xcassets */; };
+		501E218D22E7030D006432A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501E218B22E7030D006432A1 /* LaunchScreen.storyboard */; };
+		501E219822E7030E006432A1 /* ProyectoFreeTimeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501E219722E7030E006432A1 /* ProyectoFreeTimeAppUITests.swift */; };
+		501E21AD22E9B9FB006432A1 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501E21AC22E9B9FB006432A1 /* EventsViewController.swift */; };
+		501E21AF22E9BCC9006432A1 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501E21AE22E9BCC9006432A1 /* EventsModel.swift */; };
+		501E21B122E9BF6F006432A1 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501E21B022E9BF6F006432A1 /* EventsTableViewCell.swift */; };
+		50D9305122FF3ED600BA6473 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9305022FF3ED600BA6473 /* FilterViewController.swift */; };
+		50D9305322FFF02100BA6473 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50D9305222FFF02100BA6473 /* GoogleService-Info.plist */; };
+		50D93056230078BC00BA6473 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D93054230078BB00BA6473 /* Realm.framework */; };
+		50D93057230078BC00BA6473 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50D93054230078BB00BA6473 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50D93058230078BC00BA6473 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D93055230078BB00BA6473 /* RealmSwift.framework */; };
+		50D93059230078BC00BA6473 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50D93055230078BB00BA6473 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		779269D922FF7FEE00ACC768 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779269D822FF7FEE00ACC768 /* EventListViewController.swift */; };
+		779269DB22FF88CE00ACC768 /* EventListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779269DA22FF88CE00ACC768 /* EventListTableViewCell.swift */; };
+		779269E022FF903D00ACC768 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779269DF22FF903D00ACC768 /* DetailTableViewCell.swift */; };
+		779269E222FFBCD100ACC768 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779269E122FFBCD100ACC768 /* LocationsViewController.swift */; };
+		77A1CBC522FE88B000955C08 /* DetailContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A1CBC422FE88B000955C08 /* DetailContainer.swift */; };
+		C44F6A86A21038A6D5FBC9B5 /* Pods_ProyectoFreeTimeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D9511D532D942136B8C8B6 /* Pods_ProyectoFreeTimeApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		501E219422E7030E006432A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501E217722E7030D006432A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501E217E22E7030D006432A1;
+			remoteInfo = ProyectoFreeTimeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50D9305A230078BC00BA6473 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50D93059230078BC00BA6473 /* RealmSwift.framework in Embed Frameworks */,
+				50D93057230078BC00BA6473 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2695E5512E3B506FCFA54595 /* Pods-ProyectoFreeTimeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoFreeTimeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ProyectoFreeTimeAppUITests/Pods-ProyectoFreeTimeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31A80EBC22F4EE0300269D0A /* DetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailStoryboard.storyboard; sourceTree = "<group>"; };
+		31A80EBE22F4F13700269D0A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		321284724FBFAD114E2A8B6D /* Pods-ProyectoFreeTimeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoFreeTimeApp.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoFreeTimeApp/Pods-ProyectoFreeTimeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		501E217F22E7030D006432A1 /* ProyectoFreeTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoFreeTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501E218222E7030D006432A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		501E218722E7030D006432A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501E218922E7030D006432A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501E218C22E7030D006432A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		501E218E22E7030D006432A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501E219322E7030E006432A1 /* ProyectoFreeTimeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoFreeTimeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501E219722E7030E006432A1 /* ProyectoFreeTimeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoFreeTimeAppUITests.swift; sourceTree = "<group>"; };
+		501E219922E7030E006432A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501E21AC22E9B9FB006432A1 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		501E21AE22E9BCC9006432A1 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
+		501E21B022E9BF6F006432A1 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		50D9305022FF3ED600BA6473 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		50D9305222FFF02100BA6473 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		50D93054230078BB00BA6473 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		50D93055230078BB00BA6473 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		53C1539A59FAE5DC0EB4F141 /* Pods-ProyectoFreeTimeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoFreeTimeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoFreeTimeAppUITests/Pods-ProyectoFreeTimeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5579B7EC5B2C1D03D584F4E8 /* Pods-ProyectoFreeTimeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoFreeTimeApp.release.xcconfig"; path = "Target Support Files/Pods-ProyectoFreeTimeApp/Pods-ProyectoFreeTimeApp.release.xcconfig"; sourceTree = "<group>"; };
+		779269D822FF7FEE00ACC768 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		779269DA22FF88CE00ACC768 /* EventListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTableViewCell.swift; sourceTree = "<group>"; };
+		779269DF22FF903D00ACC768 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		779269E122FFBCD100ACC768 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		77A1CBC422FE88B000955C08 /* DetailContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContainer.swift; sourceTree = "<group>"; };
+		A2BE7DDA33EFF6F0671B69C9 /* Pods_ProyectoFreeTimeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoFreeTimeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D9511D532D942136B8C8B6 /* Pods_ProyectoFreeTimeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoFreeTimeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501E217C22E7030D006432A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D93056230078BC00BA6473 /* Realm.framework in Frameworks */,
+				C44F6A86A21038A6D5FBC9B5 /* Pods_ProyectoFreeTimeApp.framework in Frameworks */,
+				50D93058230078BC00BA6473 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501E219022E7030E006432A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB315C613BB58F826777F70 /* Pods_ProyectoFreeTimeAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501E217622E7030D006432A1 = {
+			isa = PBXGroup;
+			children = (
+				50D9305C2301209A00BA6473 /* Models */,
+				50D9305B2301206200BA6473 /* Controllers */,
+				50D93054230078BB00BA6473 /* Realm.framework */,
+				50D93055230078BB00BA6473 /* RealmSwift.framework */,
+				501E218122E7030D006432A1 /* ProyectoFreeTimeApp */,
+				501E219622E7030E006432A1 /* ProyectoFreeTimeAppUITests */,
+				501E218022E7030D006432A1 /* Products */,
+				5C913E166F6E0FBCF230C304 /* Pods */,
+				EC5D4278863B93ED963D138E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		501E218022E7030D006432A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501E217F22E7030D006432A1 /* ProyectoFreeTimeApp.app */,
+				501E219322E7030E006432A1 /* ProyectoFreeTimeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501E218122E7030D006432A1 /* ProyectoFreeTimeApp */ = {
+			isa = PBXGroup;
+			children = (
+				50D9305222FFF02100BA6473 /* GoogleService-Info.plist */,
+				501E218222E7030D006432A1 /* AppDelegate.swift */,
+				501E218622E7030D006432A1 /* Main.storyboard */,
+				501E218922E7030D006432A1 /* Assets.xcassets */,
+				501E218B22E7030D006432A1 /* LaunchScreen.storyboard */,
+				501E218E22E7030D006432A1 /* Info.plist */,
+				31A80EBC22F4EE0300269D0A /* DetailStoryboard.storyboard */,
+			);
+			path = ProyectoFreeTimeApp;
+			sourceTree = "<group>";
+		};
+		501E219622E7030E006432A1 /* ProyectoFreeTimeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				501E219722E7030E006432A1 /* ProyectoFreeTimeAppUITests.swift */,
+				501E219922E7030E006432A1 /* Info.plist */,
+			);
+			path = ProyectoFreeTimeAppUITests;
+			sourceTree = "<group>";
+		};
+		50D9305B2301206200BA6473 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				779269D822FF7FEE00ACC768 /* EventListViewController.swift */,
+				501E21AC22E9B9FB006432A1 /* EventsViewController.swift */,
+				31A80EBE22F4F13700269D0A /* DetailViewController.swift */,
+				50D9305022FF3ED600BA6473 /* FilterViewController.swift */,
+				779269E122FFBCD100ACC768 /* LocationsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50D9305C2301209A00BA6473 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				779269DA22FF88CE00ACC768 /* EventListTableViewCell.swift */,
+				501E21AE22E9BCC9006432A1 /* EventsModel.swift */,
+				501E21B022E9BF6F006432A1 /* EventsTableViewCell.swift */,
+				779269DF22FF903D00ACC768 /* DetailTableViewCell.swift */,
+				77A1CBC422FE88B000955C08 /* DetailContainer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C913E166F6E0FBCF230C304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				321284724FBFAD114E2A8B6D /* Pods-ProyectoFreeTimeApp.debug.xcconfig */,
+				5579B7EC5B2C1D03D584F4E8 /* Pods-ProyectoFreeTimeApp.release.xcconfig */,
+				53C1539A59FAE5DC0EB4F141 /* Pods-ProyectoFreeTimeAppUITests.debug.xcconfig */,
+				2695E5512E3B506FCFA54595 /* Pods-ProyectoFreeTimeAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC5D4278863B93ED963D138E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D9511D532D942136B8C8B6 /* Pods_ProyectoFreeTimeApp.framework */,
+				A2BE7DDA33EFF6F0671B69C9 /* Pods_ProyectoFreeTimeAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501E217E22E7030D006432A1 /* ProyectoFreeTimeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501E219C22E7030E006432A1 /* Build configuration list for PBXNativeTarget "ProyectoFreeTimeApp" */;
+			buildPhases = (
+				E2BB328A0C30205AC44BE4B4 /* [CP] Check Pods Manifest.lock */,
+				501E217B22E7030D006432A1 /* Sources */,
+				501E217C22E7030D006432A1 /* Frameworks */,
+				501E217D22E7030D006432A1 /* Resources */,
+				2BBB573BD1038F111E214704 /* [CP] Embed Pods Frameworks */,
+				50D9305A230078BC00BA6473 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoFreeTimeApp;
+			productName = ProyectoFreeTimeApp;
+			productReference = 501E217F22E7030D006432A1 /* ProyectoFreeTimeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		501E219222E7030E006432A1 /* ProyectoFreeTimeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501E219F22E7030E006432A1 /* Build configuration list for PBXNativeTarget "ProyectoFreeTimeAppUITests" */;
+			buildPhases = (
+				7F23C4C236D19877ECD4ED79 /* [CP] Check Pods Manifest.lock */,
+				501E218F22E7030E006432A1 /* Sources */,
+				501E219022E7030E006432A1 /* Frameworks */,
+				501E219122E7030E006432A1 /* Resources */,
+				936F90159912E6A15A573490 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501E219522E7030E006432A1 /* PBXTargetDependency */,
+			);
+			name = ProyectoFreeTimeAppUITests;
+			productName = ProyectoFreeTimeAppUITests;
+			productReference = 501E219322E7030E006432A1 /* ProyectoFreeTimeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501E217722E7030D006432A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Rodrigo;
+				TargetAttributes = {
+					501E217E22E7030D006432A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					501E219222E7030E006432A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 501E217E22E7030D006432A1;
+					};
+				};
+			};
+			buildConfigurationList = 501E217A22E7030D006432A1 /* Build configuration list for PBXProject "ProyectoFreeTimeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501E217622E7030D006432A1;
+			productRefGroup = 501E218022E7030D006432A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501E217E22E7030D006432A1 /* ProyectoFreeTimeApp */,
+				501E219222E7030E006432A1 /* ProyectoFreeTimeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501E217D22E7030D006432A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501E218D22E7030D006432A1 /* LaunchScreen.storyboard in Resources */,
+				31A80EBD22F4EE0300269D0A /* DetailStoryboard.storyboard in Resources */,
+				501E218A22E7030D006432A1 /* Assets.xcassets in Resources */,
+				501E218822E7030D006432A1 /* Main.storyboard in Resources */,
+				50D9305322FFF02100BA6473 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501E219122E7030E006432A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BBB573BD1038F111E214704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoFreeTimeApp/Pods-ProyectoFreeTimeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoFreeTimeApp/Pods-ProyectoFreeTimeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoFreeTimeApp/Pods-ProyectoFreeTimeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F23C4C236D19877ECD4ED79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoFreeTimeAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936F90159912E6A15A573490 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoFreeTimeAppUITests/Pods-ProyectoFreeTimeAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoFreeTimeAppUITests/Pods-ProyectoFreeTimeAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoFreeTimeAppUITests/Pods-ProyectoFreeTimeAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BB328A0C30205AC44BE4B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoFreeTimeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501E217B22E7030D006432A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501E21AD22E9B9FB006432A1 /* EventsViewController.swift in Sources */,
+				501E21AF22E9BCC9006432A1 /* EventsModel.swift in Sources */,
+				77A1CBC522FE88B000955C08 /* DetailContainer.swift in Sources */,
+				779269D922FF7FEE00ACC768 /* EventListViewController.swift in Sources */,
+				779269E022FF903D00ACC768 /* DetailTableViewCell.swift in Sources */,
+				50D9305122FF3ED600BA6473 /* FilterViewController.swift in Sources */,
+				501E21B122E9BF6F006432A1 /* EventsTableViewCell.swift in Sources */,
+				501E218322E7030D006432A1 /* AppDelegate.swift in Sources */,
+				779269DB22FF88CE00ACC768 /* EventListTableViewCell.swift in Sources */,
+				31A80EBF22F4F13700269D0A /* DetailViewController.swift in Sources */,
+				779269E222FFBCD100ACC768 /* LocationsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501E218F22E7030E006432A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501E219822E7030E006432A1 /* ProyectoFreeTimeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501E219522E7030E006432A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501E217E22E7030D006432A1 /* ProyectoFreeTimeApp */;
+			targetProxy = 501E219422E7030E006432A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		501E218622E7030D006432A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501E218722E7030D006432A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		501E218B22E7030D006432A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501E218C22E7030D006432A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501E219A22E7030E006432A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		501E219B22E7030E006432A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501E219D22E7030E006432A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321284724FBFAD114E2A8B6D /* Pods-ProyectoFreeTimeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D72468GWU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ProyectoFreeTimeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigo.ProyectoFreeTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		501E219E22E7030E006432A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5579B7EC5B2C1D03D584F4E8 /* Pods-ProyectoFreeTimeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D72468GWU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ProyectoFreeTimeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigo.ProyectoFreeTimeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		501E21A022E7030E006432A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C1539A59FAE5DC0EB4F141 /* Pods-ProyectoFreeTimeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D72468GWU;
+				INFOPLIST_FILE = ProyectoFreeTimeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigo.ProyectoFreeTimeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoFreeTimeApp;
+			};
+			name = Debug;
+		};
+		501E21A122E7030E006432A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2695E5512E3B506FCFA54595 /* Pods-ProyectoFreeTimeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D72468GWU;
+				INFOPLIST_FILE = ProyectoFreeTimeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodrigo.ProyectoFreeTimeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoFreeTimeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501E217A22E7030D006432A1 /* Build configuration list for PBXProject "ProyectoFreeTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501E219A22E7030E006432A1 /* Debug */,
+				501E219B22E7030E006432A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501E219C22E7030E006432A1 /* Build configuration list for PBXNativeTarget "ProyectoFreeTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501E219D22E7030E006432A1 /* Debug */,
+				501E219E22E7030E006432A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501E219F22E7030E006432A1 /* Build configuration list for PBXNativeTarget "ProyectoFreeTimeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501E21A022E7030E006432A1 /* Debug */,
+				501E21A122E7030E006432A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501E217722E7030D006432A1 /* Project object */;
+}
