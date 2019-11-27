@@ -1,0 +1,6 @@
+framework module Pods_FesANewsTests {
+  umbrella header "Pods-FesANewsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
