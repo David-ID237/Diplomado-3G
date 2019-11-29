@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>254621145000-bnmo9vhuoekv2hetregvalv236q34pdr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.254621145000-bnmo9vhuoekv2hetregvalv236q34pdr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbWeJVJ0wg2UbU9mjzh8XS1PR-2maZWlE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>254621145000</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>CarlosRam.CCE</string>
+	<key>PROJECT_ID</key>
+	<string>ccefirebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ccefirebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:254621145000:ios:66dcbde1ce872f50</string>
+	<key>DATABASE_URL</key>
+	<string>https://ccefirebase.firebaseio.com</string>
+</dict>
+</plist>
